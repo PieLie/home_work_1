@@ -7,19 +7,21 @@ body {
 	box-sizing: border-box;
 	background-color: #fff;
 	padding: 40px 40px;
-	border: 1px solid #e0e0e0;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.4);
 }
 .name {
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 20px;
 }
 .foto {
-    width: 150px;
-    margin: 0 auto;
-    display: block;
-    height: auto;
+	width: 150px;
+	margin: 0 auto;
+	display: block;
+	height: auto;
 }
 p {
 	font-size: 16px;
@@ -37,7 +39,7 @@ li {
 	margin-bottom: 7px;
 	font-size: 16px;
 }
-a {
+a {	
 	color: blue;
 }
 .line-type-2 {
