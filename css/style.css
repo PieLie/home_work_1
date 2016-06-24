@@ -4,23 +4,25 @@ body {
 .container {
 	width: 550px;
 	margin: 0 auto;
+	box-sizing: border-box;
 	background-color: #fff;
 	padding: 40px 40px;
 	border: 1px solid #e0e0e0;
 }
 .name {
-	font-weight: 700;
-	text-align: center;
-	font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 .foto {
-    width: 200px;
+    width: 150px;
     margin: 0 auto;
     display: block;
     height: auto;
 }
 p {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 25px;
 }
 .line {
@@ -33,11 +35,11 @@ ul {
 }
 li {
 	margin-bottom: 7px;
-	font-size: 18px;
+	font-size: 16px;
 }
 a {
 	color: blue;
 }
 .line-type-2 {
-	background-color: #e0e0e0;
+	background-color: #7b7b7b;
 }
